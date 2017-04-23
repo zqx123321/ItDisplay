@@ -1,0 +1,837 @@
+[ 2016-04-03T09:56:17+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-04-03T09:56:32+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-04-03T09:56:33+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-04-03T09:57:15+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-04-03T14:07:09+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-04-03T14:08:00+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-04-03T14:08:01+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-04-03T14:27:36+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-04-03T14:27:52+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-04-03T14:27:54+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-04-03T15:04:51+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-04-03T15:05:08+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-04-03T15:05:08+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-04-03T15:05:19+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-04-03T15:05:20+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-04-03T15:05:29+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-04-03T15:05:29+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-04-03T15:05:38+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-04-03T15:05:38+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-04-03T15:07:32+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-04-03T15:08:07+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-04-03T15:08:19+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-04-03T15:08:20+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-04-03T15:12:24+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-04-03T15:12:42+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+
+[ 2016-04-03T15:12:44+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-04-03T15:13:39+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-04-03T15:13:59+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-04-03T15:14:45+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-04-03T15:19:32+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-04-03T15:19:45+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-04-03T15:19:46+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-04-03T15:22:14+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-04-03T15:22:25+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-04-03T15:22:26+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-04-03T15:28:56+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-04-03T15:29:08+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-04-03T15:29:08+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-04-03T15:30:22+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-04-03T15:30:35+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-04-03T15:30:35+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-04-03T15:32:00+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-04-03T15:32:10+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-04-03T15:32:11+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-04-03T22:09:18+08:00 ] 222.195.158.224 /ImageCup/index.php/Home/index/classinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-04-03T22:09:38+08:00 ] 222.195.158.224 /ImageCup/index.php/Home/index/classinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-04-03T22:10:03+08:00 ] 222.195.158.224 /ImageCup/index.php/Home/index/classinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-04-03T22:10:32+08:00 ] 222.195.158.224 /ImageCup/index.php/Home/ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-04-03T22:11:16+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-04-03T22:11:31+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-04-03T22:11:31+08:00 ] 222.195.145.151 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-04-03T22:11:42+08:00 ] 222.195.158.224 /ImageCup/index.php/Home/index/classinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined offset: 0 C:\it\it\ImageCup\Application\Home\Controller\IndexController.class.php 第 120 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-04-03T23:11:17+08:00 ] 117.136.77.123 /ImageCup/index.php/Home/Ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-04-03T23:11:25+08:00 ] 117.136.77.123 /ImageCup/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-04-03T23:11:26+08:00 ] 117.136.77.123 /ImageCup/index.php/Home/index/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+

@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Manage_Master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="css/manage.css" rel="stylesheet" />
+    <title>信息科学与工程学院</title>
+    <!-- enable HTML5 elements in IE -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="../css/ie.css" />
+    <script type="text/javascript" src="../js/html5.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="manage">
+    <form id="form1" runat="server">
+        <aside class="man-aside">
+            <h1>信息学院后台管理</h1>
+            <hr />
+            <nav class="man-nav">
+                <ul id="man-navigation">
+                    <li class="second" ID="Article" runat="server"><a>添加文章<em></em></a>
+                        <asp:Repeater ID="Repeater1" runat="server">
+                            <HeaderTemplate>
+                                <ul>
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <li><a href="AddArticle.aspx?type=<%#Container.DataItem %>"><%#Container.DataItem %></a></li>
+                            </ItemTemplate>
+                            <FooterTemplate></ul></FooterTemplate>
+                        </asp:Repeater>
+                    </li>
+                    <li><a href="MyArticles.aspx">我的文章</a></li>
+                    <li><a href="Recycle.aspx">回收站</a></li>
+                    <li><a href="AddCourse.aspx">添加课程</a></li>
+                    <li><a href="CourseOutline.aspx">培养计划</a></li>
+                    <li><a href="AddIntroduce.aspx">学院概况</a></li>
+                    <asp:Panel ID="PanelMessEdit" runat="server">
+                        <li><a href="MessEdit.aspx">修改教师个人信息</a></li>
+                    </asp:Panel>
+                    <asp:Panel ID="PanelOrgEdit" runat="server">
+                        <li><a href="OrgEdit.aspx">修改组织机构个人信息</a></li>
+                    </asp:Panel>
+                    <asp:Panel ID="PanelOrg" runat="server">
+                        <li><a href="OrgManage.aspx">添加Group成员</a></li>
+                        <li><a href="OrgManage.aspx?type=delete">删除Group成员</a></li>
+                    </asp:Panel>
+                    <li><a href="PswEdit.aspx">修改密码</a></li>
+                    <li>
+                        <asp:LinkButton ID="lnkEdit" runat="server" OnClick="lnkEdit_Click">注销</asp:LinkButton></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div>
+            <section class="man-container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+    </form>
+
+    <!-- 这里就是右边的内容啦啦啦 -->
+
+    <!--<footer class="footer"></footer>-->
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="../js/script.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.manNav("#man-navigation");
+    </script>
+</body>
+</html>

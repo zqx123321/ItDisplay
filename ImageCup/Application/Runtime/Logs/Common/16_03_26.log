@@ -1,0 +1,164 @@
+[ 2016-03-26T19:31:40+08:00 ] 192.168.1.107 /ImageCup/index.php/index/jsonDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:32:18+08:00 ] 192.168.1.107 /ImageCup/index.php/index/jsonDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:32:45+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:35:27+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:39:28+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:42:26+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal?callback=jQuery111307643081420188977_1458992544593&_=1458992544594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:42:34+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Index
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-26T19:43:01+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Index
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-26T19:43:07+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:43:23+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T19:49:39+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:05:29+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:06:24+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:08:05+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:08:15+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:11:30+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:11:31+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:11:32+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:11:32+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:11:32+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:13:36+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T20:20:13+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Index
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-26T20:38:20+08:00 ] ::1 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:Index
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\inetpub\wwwroot\ImageCup\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-26T21:24:29+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T21:24:59+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-26T21:25:06+08:00 ] 192.168.1.107 /ImageCup/index.php/index/scoreDeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Index
+

@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="oucITModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="AdminID" />
+          </Key>
+          <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Article">
+          <Key>
+            <PropertyRef Name="ArticleID" />
+          </Key>
+          <Property Name="ArticleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SubTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="AuthorID" Type="int" Nullable="false" />
+          <Property Name="Author" Type="nvarchar" MaxLength="50" />
+          <Property Name="Source" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Link" Type="nvarchar(max)" />
+          <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ImgUrl" Type="nvarchar(max)" />
+          <Property Name="Type" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="OnTop" Type="bit" Nullable="false" />
+          <Property Name="Hot" Type="bit" Nullable="false" />
+          <Property Name="Attachment" Type="bit" Nullable="false" />
+          <Property Name="UpdateTime" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Hit" Type="int" />
+          <Property Name="BelongedClub" Type="int" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Connection">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GroupID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Class" Type="int" Nullable="false" />
+          <Property Name="Right" Type="int" Nullable="false" />
+          <Property Name="Job" Type="nvarchar" MaxLength="50" />
+          <Property Name="Duty" Type="nvarchar" MaxLength="50" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CourseName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Major" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="Number" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="EnglishName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CourseHours" Type="int" Nullable="false" />
+          <Property Name="CourseMark" Type="float" Nullable="false" />
+          <Property Name="WeekHours" Type="int" />
+          <Property Name="TermArrange" Type="nvarchar" MaxLength="50" />
+          <Property Name="ExperimentHours" Type="int" />
+          <Property Name="ExperimentMark" Type="float" />
+          <Property Name="Textbook" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TextbookAuthor" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TextbookPublisher" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TextbookVersion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ExperimentGuideBook" Type="nvarchar" MaxLength="50" />
+          <Property Name="ExperimentPlace" Type="nvarchar" MaxLength="50" />
+          <Property Name="CourseObject" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ExamType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ContentAndTimeArrange" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Reference" Type="nvarchar(max)" />
+          <Property Name="ExperimentPartObject" Type="nvarchar(max)" />
+          <Property Name="ExperimentObject" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+          </Key>
+          <Property Name="DepartmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Content" Type="nvarchar(max)" />
+          <Property Name="Link" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Introduce">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="text" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ITGroup">
+          <Key>
+            <PropertyRef Name="GroupID" />
+          </Key>
+          <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GroupName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="groupType" Type="int" Nullable="false" />
+          <Property Name="Img" Type="nvarchar(max)" />
+          <Property Name="Link" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Log">
+          <Key>
+            <PropertyRef Name="LogID" />
+          </Key>
+          <Property Name="LogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Time" Type="datetime" Nullable="false" />
+          <Property Name="Info" Type="int" Nullable="false" />
+          <Property Name="IP" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserID" Type="int" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StuID" />
+          </Key>
+          <Property Name="StuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Teacher">
+          <Key>
+            <PropertyRef Name="TeacherID" />
+          </Key>
+          <Property Name="TeacherID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ImgUrl" Type="nvarchar(max)" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Birthday" Type="date" />
+          <Property Name="PoliticsStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="Education" Type="nvarchar" MaxLength="50" />
+          <Property Name="MobilePhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="OfficePhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="WorkPlace" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar" MaxLength="100" />
+          <Property Name="JobTitle" Type="int" />
+          <Property Name="Job" Type="int" />
+          <Property Name="Tutor" Type="int" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" />
+          <Property Name="Major" Type="nvarchar" MaxLength="50" />
+          <Property Name="Course" Type="nvarchar" MaxLength="50" />
+          <Property Name="Experience" Type="nvarchar(max)" />
+          <Property Name="ResearchDirection" Type="nvarchar(max)" />
+          <Property Name="ResearchProject" Type="nvarchar(max)" />
+          <Property Name="Achievements" Type="nvarchar(max)" />
+          <Property Name="Paper" Type="nvarchar(max)" />
+          <Property Name="Enrolment" Type="nvarchar(max)" />
+          <Property Name="Remark" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Number" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Article_User">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="Article" Type="Self.Article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Article">
+              <PropertyRef Name="AuthorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Connection_ITGroup">
+          <End Role="ITGroup" Type="Self.ITGroup" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Connection" Type="Self.Connection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ITGroup">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="Connection">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Connection_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Connection" Type="Self.Connection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Connection">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Log_User">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Log" Type="Self.Log" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Log">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="oucITModelStoreContainer">
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Article" EntityType="Self.Article" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Connection" EntityType="Self.Connection" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Introduce" EntityType="Self.Introduce" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ITGroup" EntityType="Self.ITGroup" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Log" EntityType="Self.Log" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teacher" EntityType="Self.Teacher" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Article_User" Association="Self.FK_Article_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Article" EntitySet="Article" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Connection_ITGroup" Association="Self.FK_Connection_ITGroup">
+            <End Role="ITGroup" EntitySet="ITGroup" />
+            <End Role="Connection" EntitySet="Connection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Connection_User" Association="Self.FK_Connection_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Connection" EntitySet="Connection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Log_User" Association="Self.FK_Log_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Log" EntitySet="Log" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="oucITModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="AdminID" />
+          </Key>
+          <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Article">
+          <Key>
+            <PropertyRef Name="ArticleID" />
+          </Key>
+          <Property Name="ArticleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SubTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AuthorID" Type="Int32" Nullable="false" />
+          <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ImgUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OnTop" Type="Boolean" Nullable="false" />
+          <Property Name="Hot" Type="Boolean" Nullable="false" />
+          <Property Name="Attachment" Type="Boolean" Nullable="false" />
+          <Property Name="UpdateTime" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Hit" Type="Int32" />
+          <Property Name="BelongedClub" Type="Int32" />
+          <Property Name="Deleted" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Article_User" FromRole="Article" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Connection">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GroupID" Type="Int32" Nullable="false" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Class" Type="Int32" Nullable="false" />
+          <Property Name="Right" Type="Int32" Nullable="false" />
+          <Property Name="Job" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Duty" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ITGroup" Relationship="Self.FK_Connection_ITGroup" FromRole="Connection" ToRole="ITGroup" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Connection_User" FromRole="Connection" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Major" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type" Type="Int32" Nullable="false" />
+          <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EnglishName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CourseHours" Type="Int32" Nullable="false" />
+          <Property Name="CourseMark" Type="Double" Nullable="false" />
+          <Property Name="WeekHours" Type="Int32" />
+          <Property Name="TermArrange" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ExperimentHours" Type="Int32" />
+          <Property Name="ExperimentMark" Type="Double" />
+          <Property Name="Textbook" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TextbookAuthor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TextbookPublisher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TextbookVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ExperimentGuideBook" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ExperimentPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CourseObject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ExamType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContentAndTimeArrange" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Reference" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ExperimentPartObject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ExperimentObject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+          </Key>
+          <Property Name="DepartmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Link" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Introduce">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ITGroup">
+          <Key>
+            <PropertyRef Name="GroupID" />
+          </Key>
+          <Property Name="GroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="groupType" Type="Int32" Nullable="false" />
+          <Property Name="Img" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Connection" Relationship="Self.FK_Connection_ITGroup" FromRole="ITGroup" ToRole="Connection" />
+        </EntityType>
+        <EntityType Name="Log">
+          <Key>
+            <PropertyRef Name="LogID" />
+          </Key>
+          <Property Name="LogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Info" Type="Int32" Nullable="false" />
+          <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserID" Type="Int32" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Log_User" FromRole="Log" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StuID" />
+          </Key>
+          <Property Name="StuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Teacher">
+          <Key>
+            <PropertyRef Name="TeacherID" />
+          </Key>
+          <Property Name="TeacherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ImgUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+          <Property Name="PoliticsStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Education" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MobilePhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OfficePhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="WorkPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="JobTitle" Type="Int32" />
+          <Property Name="Job" Type="Int32" />
+          <Property Name="Tutor" Type="Int32" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Major" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Course" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Experience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ResearchDirection" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ResearchProject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Achievements" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Paper" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Enrolment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Article" Relationship="Self.FK_Article_User" FromRole="User" ToRole="Article" />
+          <NavigationProperty Name="Connection" Relationship="Self.FK_Connection_User" FromRole="User" ToRole="Connection" />
+          <NavigationProperty Name="Log" Relationship="Self.FK_Log_User" FromRole="User" ToRole="Log" />
+        </EntityType>
+        <Association Name="FK_Article_User">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="Article" Type="Self.Article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Article">
+              <PropertyRef Name="AuthorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Connection_ITGroup">
+          <End Role="ITGroup" Type="Self.ITGroup" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Connection" Type="Self.Connection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ITGroup">
+              <PropertyRef Name="GroupID" />
+            </Principal>
+            <Dependent Role="Connection">
+              <PropertyRef Name="GroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Connection_User">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Connection" Type="Self.Connection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Connection">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Log_User">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Log" Type="Self.Log" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Log">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="oucITEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admin" EntityType="Self.Admin" />
+          <EntitySet Name="Article" EntityType="Self.Article" />
+          <EntitySet Name="Connection" EntityType="Self.Connection" />
+          <EntitySet Name="Course" EntityType="Self.Course" />
+          <EntitySet Name="Department" EntityType="Self.Department" />
+          <EntitySet Name="Introduce" EntityType="Self.Introduce" />
+          <EntitySet Name="ITGroup" EntityType="Self.ITGroup" />
+          <EntitySet Name="Log" EntityType="Self.Log" />
+          <EntitySet Name="Student" EntityType="Self.Student" />
+          <EntitySet Name="Teacher" EntityType="Self.Teacher" />
+          <EntitySet Name="User" EntityType="Self.User" />
+          <AssociationSet Name="FK_Article_User" Association="Self.FK_Article_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Article" EntitySet="Article" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Connection_ITGroup" Association="Self.FK_Connection_ITGroup">
+            <End Role="ITGroup" EntitySet="ITGroup" />
+            <End Role="Connection" EntitySet="Connection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Connection_User" Association="Self.FK_Connection_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Connection" EntitySet="Connection" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Log_User" Association="Self.FK_Log_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Log" EntitySet="Log" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="oucITModelStoreContainer" CdmEntityContainer="oucITEntities">
+          <EntitySetMapping Name="Admin">
+            <EntityTypeMapping TypeName="oucITModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Article">
+            <EntityTypeMapping TypeName="oucITModel.Article">
+              <MappingFragment StoreEntitySet="Article">
+                <ScalarProperty Name="ArticleID" ColumnName="ArticleID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+                <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="ImgUrl" ColumnName="ImgUrl" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="OnTop" ColumnName="OnTop" />
+                <ScalarProperty Name="Hot" ColumnName="Hot" />
+                <ScalarProperty Name="Attachment" ColumnName="Attachment" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+                <ScalarProperty Name="Hit" ColumnName="Hit" />
+                <ScalarProperty Name="BelongedClub" ColumnName="BelongedClub" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Connection">
+            <EntityTypeMapping TypeName="oucITModel.Connection">
+              <MappingFragment StoreEntitySet="Connection">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Class" ColumnName="Class" />
+                <ScalarProperty Name="Right" ColumnName="Right" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+                <ScalarProperty Name="Duty" ColumnName="Duty" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Course">
+            <EntityTypeMapping TypeName="oucITModel.Course">
+              <MappingFragment StoreEntitySet="Course">
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Major" ColumnName="Major" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="EnglishName" ColumnName="EnglishName" />
+                <ScalarProperty Name="CourseHours" ColumnName="CourseHours" />
+                <ScalarProperty Name="CourseMark" ColumnName="CourseMark" />
+                <ScalarProperty Name="WeekHours" ColumnName="WeekHours" />
+                <ScalarProperty Name="TermArrange" ColumnName="TermArrange" />
+                <ScalarProperty Name="ExperimentHours" ColumnName="ExperimentHours" />
+                <ScalarProperty Name="ExperimentMark" ColumnName="ExperimentMark" />
+                <ScalarProperty Name="Textbook" ColumnName="Textbook" />
+                <ScalarProperty Name="TextbookAuthor" ColumnName="TextbookAuthor" />
+                <ScalarProperty Name="TextbookPublisher" ColumnName="TextbookPublisher" />
+                <ScalarProperty Name="TextbookVersion" ColumnName="TextbookVersion" />
+                <ScalarProperty Name="ExperimentGuideBook" ColumnName="ExperimentGuideBook" />
+                <ScalarProperty Name="ExperimentPlace" ColumnName="ExperimentPlace" />
+                <ScalarProperty Name="CourseObject" ColumnName="CourseObject" />
+                <ScalarProperty Name="ExamType" ColumnName="ExamType" />
+                <ScalarProperty Name="ContentAndTimeArrange" ColumnName="ContentAndTimeArrange" />
+                <ScalarProperty Name="Reference" ColumnName="Reference" />
+                <ScalarProperty Name="ExperimentPartObject" ColumnName="ExperimentPartObject" />
+                <ScalarProperty Name="ExperimentObject" ColumnName="ExperimentObject" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Department">
+            <EntityTypeMapping TypeName="oucITModel.Department">
+              <MappingFragment StoreEntitySet="Department">
+                <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Introduce">
+            <EntityTypeMapping TypeName="oucITModel.Introduce">
+              <MappingFragment StoreEntitySet="Introduce">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="text" ColumnName="text" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ITGroup">
+            <EntityTypeMapping TypeName="oucITModel.ITGroup">
+              <MappingFragment StoreEntitySet="ITGroup">
+                <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+                <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+                <ScalarProperty Name="groupType" ColumnName="groupType" />
+                <ScalarProperty Name="Img" ColumnName="Img" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Log">
+            <EntityTypeMapping TypeName="oucITModel.Log">
+              <MappingFragment StoreEntitySet="Log">
+                <ScalarProperty Name="LogID" ColumnName="LogID" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Info" ColumnName="Info" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Student">
+            <EntityTypeMapping TypeName="oucITModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="StuID" ColumnName="StuID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teacher">
+            <EntityTypeMapping TypeName="oucITModel.Teacher">
+              <MappingFragment StoreEntitySet="Teacher">
+                <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+                <ScalarProperty Name="ImgUrl" ColumnName="ImgUrl" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="PoliticsStatus" ColumnName="PoliticsStatus" />
+                <ScalarProperty Name="Education" ColumnName="Education" />
+                <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+                <ScalarProperty Name="OfficePhone" ColumnName="OfficePhone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="WorkPlace" ColumnName="WorkPlace" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="JobTitle" ColumnName="JobTitle" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+                <ScalarProperty Name="Tutor" ColumnName="Tutor" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Major" ColumnName="Major" />
+                <ScalarProperty Name="Course" ColumnName="Course" />
+                <ScalarProperty Name="Experience" ColumnName="Experience" />
+                <ScalarProperty Name="ResearchDirection" ColumnName="ResearchDirection" />
+                <ScalarProperty Name="ResearchProject" ColumnName="ResearchProject" />
+                <ScalarProperty Name="Achievements" ColumnName="Achievements" />
+                <ScalarProperty Name="Paper" ColumnName="Paper" />
+                <ScalarProperty Name="Enrolment" ColumnName="Enrolment" />
+                <ScalarProperty Name="Remark" ColumnName="Remark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="oucITModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
